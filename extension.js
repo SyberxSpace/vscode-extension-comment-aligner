@@ -12,7 +12,7 @@ const vscode = require('vscode');
 function addBlankString(num) {
 	let blankStr = '';
 	for(let i = 0; i < num; i++) {
-		blankStr += '\xa0';
+		blankStr += ' ';
 	}
 	return blankStr;
 }
